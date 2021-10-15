@@ -107,7 +107,7 @@ void Menu::PrintText(string Message)
 
 void Menu::PrintTitle()
 {
-    ifstream Title ("T2itle.txt");
+    ifstream Title ("Title.txt");
     string Line;
     if (Title.is_open())
     {
